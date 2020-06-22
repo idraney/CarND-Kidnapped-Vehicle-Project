@@ -161,8 +161,9 @@ In the cases of both `num_particles` settings, the program output **"Success! Yo
 
 ### Performance
 
-With `num_particles = 10`, the `System Time` finished at **48.86** seconds
-With `num_particles = 100`, the `System Time` finished at **48.86** seconds
+With `num_particles = 10`, the `System Time` finished at **48.86** seconds.
+
+With `num_particles = 100`, the `System Time` finished at **48.86** seconds.
 
 [//]: # (Image References)
 
