@@ -165,6 +165,8 @@ With `num_particles = 10`, the `System Time` finished at **48.86** seconds.
 
 With `num_particles = 100`, the `System Time` finished at **48.86** seconds.
 
+In the cases of both `num_particles` settings, the program finished in less than half of the required `System Time` of 100 seconds.
+
 [//]: # (Image References)
 
 [image1]: ./img/particle_filter_complete_n10.png "Completion of running the Kidnapped Vehicle program with num_particles = 10"
