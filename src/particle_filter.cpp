@@ -238,12 +238,12 @@ void ParticleFilter::updateWeights(double sensor_range, double std_landmark[],
     particles[i].weight = 1.0;
 
     // Look for matching predicted and observed landmarks
-    for (unsigned int j = 0; j < landmarks_observed.size(); j++)
+    for (unsigned int j = 0; j < landmarks_observed.size(); ++j)
     {
       obs_x = landmarks_observed[j].x;
       obs_y = landmarks_observed[j].y;
 
-      for (unsigned int k = 0; k < landmarks_predicted.size(); k++)
+      for (unsigned int k = 0; k < landmarks_predicted.size(); ++k)
       {
         if (landmarks_predicted[k].id == landmarks_observed[j].id)
         {
