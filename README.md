@@ -139,5 +139,35 @@ The things the grading code is looking for are:
 
 2. **Performance**: your particle filter should complete execution within the time of 100 seconds.
 
-## How to write a README
-A well written README file can enhance your project and portfolio.  Develop your abilities to create professional README files by completing [this free course](https://www.udacity.com/course/writing-readmes--ud777).
+## Results
+
+The completed code was run with two different parameter settings to the number of particles:
+* `num_particles = 10`
+* `num_particles = 100`
+
+### Accuracy
+
+With `num_particles = 10`, the `x`, `y`, and `yaw` error resulted as follows:
+* `x   = 0.153`
+* `y   = 0.120`
+* `yaw = 0.005`
+
+With `num_particles = 100`, the `x`, `y`, and `yaw` error resulted as follows:
+* `x   = 0.114`
+* `y   = 0.119`
+* `yaw = 0.004`
+
+In the cases of both `num_particles` settings, the program output **"Success! Your particle filter passed!"**
+
+### Performance
+
+With `num_particles = 10`, the `System Time` finished at **48.86** seconds
+With `num_particles = 100`, the `System Time` finished at **48.86** seconds
+
+[//]: # (Image References)
+
+[image1]: ./img/particle_filter_complete_n10.png "Completion of running the Kidnapped Vehicle program with num_particles = 10"
+[image2]: ./img/particle_filter_complete_n100.png "Completion of running the Kidnapped Vehicle program with num_particles = 100"
+
+![alt text][image1]
+![alt text][image2]
